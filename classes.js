@@ -2,3 +2,5 @@
 // classes são consideradas açúcar sintático
 // existe? não existe?
 // classes não são hoisted: não são puxadas para cima no código na execução
+// sintaxe similar ao java
+// fazer exemplo da aula dps
