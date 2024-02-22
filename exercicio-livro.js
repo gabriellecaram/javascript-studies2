@@ -45,3 +45,8 @@ livro.mostrarDetalhes = "Detalhes do Livro:\n" +
                         "Idade de Publicação: " + livro.idadePublicacao + " anos";
 
 console.log(livro.mostrarDetalhes)
+
+const chaves = ['titulo', 'autor', 'anoPublicacao', 'genero','idadePublicacao']
+chaves.forEach((chave) => {
+    console.log(`A chave ${chave} tem valor ${livro[chave]}`)
+});
