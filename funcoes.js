@@ -1,4 +1,4 @@
-const cliente = {
+const aluno = {
     nome: "Joao",
     idade: 24,
     email: "joao@firma.com",
@@ -14,4 +14,4 @@ const cliente = {
       }
   };
 
-  cliente.efetuaPagamento(25);
+  aluno.efetuaPagamento(25);

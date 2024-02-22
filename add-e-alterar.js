@@ -6,7 +6,7 @@ const pessoa = {
 console.log(pessoa.nome);
 console.log(pessoa.telefone);
 
-pessoa.telefone = "(19) 98422-8581"
+pessoa.telefone = "(19) 98422-8581" // cria uma nova chave em pessoa
 console.log(pessoa.telefone)
 
 // pode alterar valores dentro do objeto

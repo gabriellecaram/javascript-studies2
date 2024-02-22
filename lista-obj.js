@@ -1,11 +1,11 @@
-const cliente = {
+const aluno = {
     nome: "Joao",
     idade: 24,
     email: "joao@firma.com",
     telefone: ["1155555550", "1144444440"],
   };
   
-  cliente.enderecos = [
+  aluno.enderecos = [
     {
       rua: "R. Joseph Climber",
       numero: 1337,
@@ -14,15 +14,15 @@ const cliente = {
     },
   ];
   
-  cliente.enderecos.push({
+  aluno.enderecos.push({
     rua: "R. Joseph Ladder",
     numero: 404,
     apartamento: false,
   });
   
-  console.log(cliente.enderecos);
+  console.log(aluno.enderecos);
 
-  const listaApenasApartamentos = cliente.enderecos.filter(
+  const listaApenasApartamentos = aluno.enderecos.filter(
     (endereco) => endereco.apartamento === true
   );
   
