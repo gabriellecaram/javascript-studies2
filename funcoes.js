@@ -4,7 +4,8 @@ const aluno = {
     email: "joao@firma.com",
     telefone: ["1155555550", "1144444440"],
     saldo: 200,
-    efetuaPagamento: function (valor) {
+
+    efetuaPagamento: function (valor) { // metodo declarado dentro do objeto
         if (valor > this.saldo) {
             console.log("Saldo insuficiente");
         } else {
