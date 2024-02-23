@@ -1,0 +1,50 @@
+JSON JavaScript Object Notation
+
+Abaixo, temos um exemplo de estudante, um objeto JavaScript literal.
+
+const estudante = {
+    nome: 'Ana',
+    idade: 32,
+    cpf: 23423423423',
+    email: 'ana@email.com',
+    telefones: ['551198745632', '551198745633'],
+    endereco: {
+        rua: 'Rua Joseph Climber',
+        numero: '45',
+        complemento: 'apto 43',
+    },
+};
+
+
+Já um exemplo de JSON com os mesmos dados, como nome, de idade, de CPF,
+como temos utilizado durante o curso, é o abaixo.
+
+{
+    "nome": "Ana",
+    "idade": 32,
+    "cpf": "23423423423",
+    "email"; "ana@email.com",
+    "telefones": ["551198745632",
+    "551198745633"],
+    "endereco": {
+        "rua": "Rua Joseph Climber",
+        "numero": "45",
+        "complemento": "apto 43"
+    }
+}
+
+o JSON não é atribuído a uma variável. Ele não é um tipo de dado do JavaScript, 
+ele é uma estrutura de dados que utiliza a Notação de Objeto JavaScript.
+no JSON é obrigatório usarmos aspas também no nome da chave, como nome, idade, CPF, tudo entre aspas duplas.
+
+o JSON não trabalha com aspas simples, todas as strings precisam ter aspas duplas. Então, aspas simples não 
+são aceitas no JSON em nenhum caso, nem para cercar os nomes das chaves, nem para serem utilizadas como strings.
+
+o JSON não aceita vírgulas sobrando. Chamamos essas vírgulas, colocadas depois da última propriedade, de trailing comma
+
+
+- Não são permitidas funções, apenas dados como string, número, booleano, array e objeto;
+- Não são permitidos comentários. Você deve se lembrar que anteriormente comentamos a parte
+de um objeto, nesse caso não podemos;
+- JSON suporta apenas os tipos primitivos: string, número, booleano, null, arrays e objetos.
+Não conseguimos utilizar funções.
