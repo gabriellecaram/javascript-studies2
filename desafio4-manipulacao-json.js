@@ -40,12 +40,6 @@ if (animalModify) {
 } // isso funciona porque em JS a atribuição a animalModify é por referência. quando altera um, altera o outro
 console.log('animais att: ', animais, '\n')
 
-/* const animalDelete = animais.find(animal => animal.especie == 'Leão');
-if(animalDelete){
-    console.log("-------------DELETE: ", animalDelete)
-    delete animalDelete // não funcionou
-} */
-
 // solução para remover animal através do índice e do nome.
 const nomeAnimalRemover = "Leão"; 
 
