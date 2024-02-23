@@ -1,0 +1,22 @@
+
+
+    [
+        {
+            "familia": "Felidae",
+            "genero": "Panthera",
+            "especie": "Onça Pintada",
+            "habitat": "Pantanal, Mata Atlantica"
+        },
+        {
+            "familia":"Felidae",
+            "genero": "Panthera",
+            "especie": "Leão",
+            "habitat": "Savana Africana"
+        },
+        {
+            "familia":"Lemuridae",
+            "genero": "Lepilemur",
+            "especie": "Lemur",
+            "habitat": "Madagascar"
+        }
+    ]
